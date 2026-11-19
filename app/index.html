@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide — GTA VI: all 55 trophies</title>
+<meta name="description" content="An offline guide and tracker for all 55 Grand Theft Auto VI trophies: checklist, roadmap to the platinum, filters, spoiler mode and a guide to every trophy.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <p class="eyebrow">Grand Theft Auto VI &middot; PlayStation 5 &middot; Xbox Series X|S</p>
+  <h1>Leonida Trophy Guide</h1>
+  <p class="lede">Every one of the 55 trophies, with a guide to each, a roadmap to the platinum, and a checklist that remembers your progress. Works fully offline.</p>
+  <div class="progress-wrap" id="progress-wrap">
+    <div class="progress-big"><span id="progress-pct">0%</span><span id="progress-count">0 of 55 earned</span></div>
+    <div class="progress-bar" role="progressbar" aria-label="Trophies earned" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" id="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+    <div class="grade-counts" id="grade-counts"></div>
+  </div>
+</header>
+
+<main>
+  <section class="alert" id="missable-alert">
+    <strong>Watch out in Chapter 1:</strong>
+    <span>One trophy may be missable — <strong>Positive Mental Attitude</strong>. On the morning after <em>Down to Earth</em>, follow Lucia from the kitchen to the balcony and accept her meditation. That moment is gone after Chapter 1.</span>
+  </section>
+
+  <section class="roadmap" id="roadmap">
+    <h2>Road to the platinum</h2>
+    <p class="section-sub">About 200 hours, one playthrough, no difficulty settings, no online trophies. Cheats switch trophies off for the session, so keep them away from your trophy run.</p>
+    <ol class="steps">
+      <li><span class="step-num">1</span><h3>Play the story</h3><p>Five chapters. Take side content as it shows up, scan vehicles with the WAiNK app, study animals with binoculars, and meditate with both characters. Do not skip Lucia&rsquo;s balcony meditation in Chapter 1.</p></li>
+      <li><span class="step-num">2</span><h3>Finish the 100% checklist</h3><p>After the credits, open Progress &gt; Stats &gt; 100% Completion. Robberies, bank vaults, gang operations, underwater finds, shooting ranges, drone races and Bret&rsquo;s Target Decks — the longest stretch, around 100 hours.</p></li>
+      <li><span class="step-num">3</span><h3>Strangers &amp; clean-up</h3><p>Finish the stranger strands and character quest lines (Andy, Kenton, Billy, Randy, Tyrone, Bret), then sweep up whatever is left on the list below.</p></li>
+    </ol>
+  </section>
+
+  <section class="checklist-100" id="checklist-100">
+    <h2>What 100% completion asks for</h2>
+    <p class="section-sub">The <strong>A Long Road</strong> gold trophy. Everything you did before the credits already counts.</p>
+    <ul class="two-col">
+      <li>All robberies, including the 8 bank vaults</li>
+      <li>All 39 gang operations</li>
+      <li>Every underwater discovery</li>
+      <li>Gold in every Shooting Range challenge</li>
+      <li>All drone races</li>
+      <li>All 15 of Bret&rsquo;s Target Decks</li>
+      <li>100 optional missions</li>
+      <li>200 of 277 vehicle scans</li>
+      <li>100 of 255 animal studies</li>
+      <li>15 of 18 meditations</li>
+      <li>70 of 80 challenges</li>
+      <li>300 stunts &middot; 100 WAiNK scans</li>
+    </ul>
+  </section>
+
+  <section class="controls" id="controls">
+    <div class="controls-row">
+      <input type="search" id="search" placeholder="Search a trophy…" aria-label="Search trophies">
+      <label class="spoiler-toggle"><input type="checkbox" id="spoiler-toggle" checked> Hide spoilers</label>
+    </div>
+    <div class="filters" id="filters" role="group" aria-label="Filter trophies"></div>
+    <div class="controls-row">
+      <button id="export" type="button">Export progress</button>
+      <label class="import-btn">Import progress <input id="import" type="file" accept="application/json"></label>
+      <button id="reset" type="button">Reset progress</button>
+      <span class="showing" id="showing"></span>
+    </div>
+  </section>
+
+  <section class="trophy-grid" id="trophy-grid" aria-live="polite"></section>
+
+  <section class="sources" id="sources">
+    <h2>Sources</h2>
+    <p>Trophy names, official descriptions and grades come from the live trophy list as reported by the trackers below. Every guide is written in our own words; where the exact steps are not confirmed yet, the guide says so instead of guessing.</p>
+    <ul>
+      <li>GTABase — GTA 6 Trophy Guide &amp; Achievements List</li>
+      <li>PowerPyx — GTA 6 trophy guide and roadmap</li>
+      <li>TrueTrophies — GTA VI PS5 trophy list</li>
+      <li>TrueAchievements — GTA VI Xbox achievement list</li>
+      <li>PSNProfiles — GTA VI trophy tracker</li>
+      <li>Insider Gaming — GTA VI 100% completion reporting</li>
+      <li>Push Square / Exophase — PS5 trophy list report</li>
+    </ul>
+    <p class="fineprint">Unofficial fan guide. Not affiliated with Rockstar Games, Sony or Microsoft. No official logos or artwork are used. Grand Theft Auto and GTA are trademarks of Take-Two Interactive.</p>
+  </section>
+</main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
